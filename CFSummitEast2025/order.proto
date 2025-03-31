@@ -1,0 +1,8 @@
+syntax = "proto3"; 
+import "Customer.proto"; 
+message Order {
+    int32 order_id = 1;
+    string order_date = 2;
+    int32 order_amount = 3;
+    Customer customer = 5;
+}

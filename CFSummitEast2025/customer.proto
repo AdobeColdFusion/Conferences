@@ -1,0 +1,5 @@
+syntax = "proto3";
+message Customer {
+    int64 customer_id = 1;
+    string customer_name = 2;
+}
